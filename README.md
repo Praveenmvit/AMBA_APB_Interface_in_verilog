@@ -40,7 +40,7 @@ edaplayground Link: https://www.edaplayground.com/x/kBWw
 
 <div align="center">
   <img width="470" height="335" alt="image" src="https://github.com/user-attachments/assets/6dbb7866-0260-4738-a1ed-0056cf03e79b" />
-  <img width="462" height="356" alt="image" src="https://github.com/user-attachments/assets/98a193f2-6028-4fb8-9df0-2b1bcf892b6c" />
+  <img width="462" height="335" alt="image" src="https://github.com/user-attachments/assets/98a193f2-6028-4fb8-9df0-2b1bcf892b6c" />
 
 </div>  
 
