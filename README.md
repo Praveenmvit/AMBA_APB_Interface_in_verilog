@@ -51,6 +51,9 @@ edaplayground Link: https://www.edaplayground.com/x/kBWw
   <img width="633" height="353" alt="image" src="https://github.com/user-attachments/assets/5e991d8e-19c2-40a1-9c6e-61bbf56df0e0" />
 </div>  
 
+<div align="center">
+  <img width="605" height="347" alt="image" src="https://github.com/user-attachments/assets/dd22483f-e901-4d04-b81f-b67d0bd5dea9" />
+</div>  
 
 
 
