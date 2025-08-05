@@ -30,9 +30,11 @@ edaplayground Link: https://www.edaplayground.com/x/kBWw
 
 ## NO Wait write transfer
    Write transfer is done throught 3 states.  
-   SETUP  -> The select signal PSEL is asserted and PADDR, PWRITE signals are assigned with proper valid address and data values.  
-   ACCESS -> PENABLE is asserted. PREADY is asserted by the Completer at the rising edge of PCLK to indicate that the write data will be accepted. PADDR, PWDATA, and any other control signals, must be stable until the transfer completes.  
-   END OF TRANSFER -> PENABLE is deasserted. PSEL is also deasserted, unless there is another transfer to the same peripheral.  
+   | Phase             | Description |
+|------------------|-------------|
+| **SETUP**         | The select signal `PSEL` is asserted and `PADDR`, `PWRITE` signals are assigned with valid address and data values. |
+| **ACCESS**        | `PENABLE` is asserted. `PREADY` is asserted by the Completer at the rising edge of `PCLK` to indicate that the write data will be accepted. `PADDR`, `PWDATA`, and any control signals must remain stable until the transfer completes. |
+| **END OF TRANSFER** | `PENABLE` is deasserted. `PSEL` is also deasserted, unless there is another transfer to the same peripheral. |
 
 <div align="center">
   <img width="470" height="335" alt="image" src="https://github.com/user-attachments/assets/6dbb7866-0260-4738-a1ed-0056cf03e79b" />
