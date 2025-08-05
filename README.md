@@ -42,6 +42,14 @@ edaplayground Link: https://www.edaplayground.com/x/kBWw
   <img width="470" height="335" alt="image" src="https://github.com/user-attachments/assets/6dbb7866-0260-4738-a1ed-0056cf03e79b" />
 </div>  
 
+## Wait state Write transfer
+-> Completer can use PREADY to extend the transfer.
+
+<div align="center">
+  <img width="633" height="353" alt="image" src="https://github.com/user-attachments/assets/5e991d8e-19c2-40a1-9c6e-61bbf56df0e0" />
+</div>  
+
+
 
 
     
