@@ -23,7 +23,8 @@ edaplayground Link: https://www.edaplayground.com/x/kBWw
 | **PENABLE**  | Indicates the second and subsequent cycles of the APB transfer. |
 | **PWRITE**   | Indicates the type of access: **HIGH** for write, **LOW** for read. |
 | **PWDATA**   | Write data bus. Driven by the APB bridge (Requester) during write cycles when `PWRITE` is HIGH. Width can be 8, 16, or 32 bits. |
-| **PRDATA**   | Read data bus. Driven by the selected Completer during read cycles when `PWRITE` is LOW. Width can be 8, 16, or 32 bits. |
+| **PRDATA**   | Read data bus. Driven by the selected Completer during read cycles when `PWRITE` is LOW. Width can be 8, 16, or 32 bits. |  
+
 *p denotes peripheral.  
 
 # Write and Read Transfer
