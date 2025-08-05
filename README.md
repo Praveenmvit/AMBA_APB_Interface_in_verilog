@@ -40,7 +40,7 @@ edaplayground Link: https://www.edaplayground.com/x/kBWw
 
 <div align="center">
   <img width="470" height="335" alt="image" src="https://github.com/user-attachments/assets/6dbb7866-0260-4738-a1ed-0056cf03e79b" />
-  <img width="462" height="335" alt="image" src="https://github.com/user-attachments/assets/98a193f2-6028-4fb8-9df0-2b1bcf892b6c" />
+  <img width="432" height="335" alt="image" src="https://github.com/user-attachments/assets/5ead6e8c-3c2d-4f8d-8e38-e408e475d5ae" />
 
 </div>  
 
@@ -52,7 +52,7 @@ edaplayground Link: https://www.edaplayground.com/x/kBWw
 </div>  
 
 <div align="center">
-  <img width="605" height="347" alt="image" src="https://github.com/user-attachments/assets/dd22483f-e901-4d04-b81f-b67d0bd5dea9" />
+  <img width="633" height="347" alt="image" src="https://github.com/user-attachments/assets/dd22483f-e901-4d04-b81f-b67d0bd5dea9" />
 </div>  
 
 
