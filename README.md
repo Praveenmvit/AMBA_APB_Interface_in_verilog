@@ -17,11 +17,13 @@ edaplayground Link: https://www.edaplayground.com/x/kBWw
 </div>  
 
 # Signal Description of few APB Signals
-**Paddr**   ->  Width of the address bus is variable, upto 32 bits.  
-**Penable** ->  Indicates second and subsequent cycle of APB transfer.  
-**Pwrite**  ->  Indicates the write or read access, write - HIGH , read - LOW.  
-**PWdata**  ->  The PWDATA write data bus is driven by the APB bridge Requester during write cycles when PWRITE is HIGH. PWDATA can be 8 bits, 16 bits, or 32 bits wide.  
-**Prdata**  ->  The PRDATA read data bus is driven by the selected Completer during read cycles when PWRITE is LOW. PRDATA can be 8 bits, 16 bits, or 32 bits wide.  
+| **Signal**   | **Description** |
+|--------------|------------------|
+| **PADDR**    | Width of the address bus is variable, up to 32 bits. |
+| **PENABLE**  | Indicates the second and subsequent cycles of the APB transfer. |
+| **PWRITE**   | Indicates the type of access: **HIGH** for write, **LOW** for read. |
+| **PWDATA**   | Write data bus. Driven by the APB bridge (Requester) during write cycles when `PWRITE` is HIGH. Width can be 8, 16, or 32 bits. |
+| **PRDATA**   | Read data bus. Driven by the selected Completer during read cycles when `PWRITE` is LOW. Width can be 8, 16, or 32 bits. |
 
 # Write Transfer
   There are two state of write transfer  
