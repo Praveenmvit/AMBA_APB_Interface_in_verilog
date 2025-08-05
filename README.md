@@ -1,4 +1,6 @@
 # AMBA_APB_Interface_in_verilog
+AMBA - Advanced Microcontroller Bus Architecture.
+APB - Advanced Peripheral Bus.
 edaplayground Link: https://www.edaplayground.com/x/kBWw
 
 # Introduction
