@@ -55,6 +55,14 @@ edaplayground Link: https://www.edaplayground.com/x/kBWw
   <img width="633" height="347" alt="image" src="https://github.com/user-attachments/assets/dd22483f-e901-4d04-b81f-b67d0bd5dea9" />
 </div>  
 
+# Error Response
+-> PSLVERR can be used to indicate an error condition on an APB transfer. Error conditions can occur on both read and write transactions.  
+-> PSLVERR is only considered valid during the last cycle of an APB transfer, when PSEL, PENABLE, and PREADY are all HIGH.  
+-> In the attached APB slave code, when the paddr is goes out of range or pwdata is invaild the pslverr is made 1.
+-> The can also track the protocol errors. 
+-> By corrupting the penable from master, the slave detects this protocol error and pslverr made high.
+
+
 
 
     
